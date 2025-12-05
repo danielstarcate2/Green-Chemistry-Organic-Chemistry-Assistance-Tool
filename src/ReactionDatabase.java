@@ -51,8 +51,8 @@ public class ReactionDatabase {
          * Alkenes
          */
         List<Reaction> alkenes = new ArrayList<>();
-        addReaction(alkenes, "Addition of HCl", "Use aqueous HCl", "Electrophilic addition", "Corrosive", "/Resources/Reaction_Images/Alkenes/addition_hcl.gif");
-        addReaction(alkenes, "Addition of HBr", "Use aqueous HBr", "Electrophilic addition", "Corrosive", "/Resources/Reaction_Images/alkenes/addition_hbr.gif");
+        addReaction(alkenes, "Addition of HCl", "Use Aqueous HCl: (AQ)HCl reduces exposure to concentrated HCl gas, which is corrosive, volatile, and hazardous to handle. Dilution lowers vapor formation, simplifies neutralization, and decreases environmental release of strong acids.", "Electrophilic addition", "Corrosive", "/Resources/Reaction_Images/Alkenes/addition_hcl.gif");
+        addReaction(alkenes, "Addition of HBr", "Use Aqueous HBr: (AQ) and Ideally Dilute HBr eliminates the dangers of handling fuming HBr or anhydrous HBr. Aqueous solutions create fewer airborne acid particles to reduce corrosive damage. (AQ) HBr is also safer to handle.", "Electrophilic addition", "Corrosive", "/Resources/Reaction_Images/alkenes/addition_hbr.gif");
         addReaction(alkenes, "Addition of H3O(+)", "Use catalytic acid", "Hydration to alcohols", "Corrosive", "/Resources/Reaction_Images/alkenes/addition_h3o.gif");
         addReaction(alkenes, "Addition of HI", "Use aqueous HI", "Electrophilic addition", "Corrosive", "/Resources/Reaction_Images/alkenes/addition_hi.gif");
         addReaction(alkenes, "Chlorination [Cl2]", "Use Cl2 in water", "Halogen addition", "Cl2 is toxic", "/Resources/Reaction_Images/alkenes/chlorination.gif");
@@ -151,11 +151,11 @@ public class ReactionDatabase {
         addReaction(organometallics, "Grignard formation [alkyl halides]", "Mg in ether", "Forms RMgX", "Air/moisture sensitive", "/Resources/Reaction_Images/organometallics/grignard_alkyl.gif");
         addReaction(organometallics, "Grignard formation [alkenyl halides]", "Mg in ether", "Forms RMgX", "Air/moisture sensitive", "/Resources/Reaction_Images/organometallics/grignard_alkenyl.gif");
         addReaction(organometallics, "Reaction of Grignards with acid [H+]", "Quench carefully", "Forms hydrocarbons", "Exothermic", "/Resources/Reaction_Images/organometallics/grignard_acid.gif");
-        addReaction(organometallics, "Addition of Grignards to aldehydes", "Use THF", "Forms alcohols", "Reactive", "/Resources/Reaction_Images/organometallics/grignard_aldehyde.gif");
-        addReaction(organometallics, "Addition of Grignards to ketones", "Use THF", "Forms tertiary alcohols", "Reactive", "/Resources/Reaction_Images/organometallics/grignard_ketone.gif");
-        addReaction(organometallics, "Addition of Grignards to esters", "Use THF", "Forms tertiary alcohols", "Reactive", "/Resources/Reaction_Images/organometallics/grignard_ester.gif");
+        addReaction(organometallics, "Addition of Grignards to aldehydes", "USE Tetrahydrofuran (THF). THF is less toxic, forms fewer hazardous peroxides, and has safer physical properties like a higher boiling point and lower water misclibility", "Forms alcohols", "Reactive", "/Resources/Reaction_Images/organometallics/grignard_aldehyde.gif");
+        addReaction(organometallics, "Addition of Grignards to ketones", "USE Tetrahydrofuran (THF). THF is less toxic, forms fewer hazardous peroxides, and has safer physical properties like a higher boiling point and lower water misclibility", "Forms tertiary alcohols", "Reactive", "/Resources/Reaction_Images/organometallics/grignard_ketone.gif");
+        addReaction(organometallics, "Addition of Grignards to esters", "USE Tetrahydrofuran (THF). THF is less toxic, forms fewer hazardous peroxides, and has safer physical properties like a higher boiling point and lower water misclibility", "Forms tertiary alcohols", "Reactive", "/Resources/Reaction_Images/organometallics/grignard_ester.gif");
         addReaction(organometallics, "Reaction of Grignards with CO2", "Use dry ice", "Forms carboxylic acids", "Exothermic", "/Resources/Reaction_Images/organometallics/grignard_co2.gif");
-        addReaction(organometallics, "Addition of Grignards to nitriles", "Use THF", "Forms ketones", "Reactive", "/Resources/Reaction_Images/organometallics/grignard_nitrile.gif");
+        addReaction(organometallics, "Addition of Grignards to nitriles", "USE Tetrahydrofuran (THF). THF is less toxic, forms fewer hazardous peroxides, and has safer physical properties like a higher boiling point and lower water misclibility", "Forms ketones", "Reactive", "/Resources/Reaction_Images/organometallics/grignard_nitrile.gif");
         addReaction(organometallics, "Formation of organolithium reagents", "Use Li metal", "Highly reactive", "Air/moisture sensitive", "/Resources/Reaction_Images/organometallics/organolithium.gif");
         addReaction(organometallics, "Formation of Gilman reagents", "Use Cu(I) salts", "Coupling reagent", "Air/moisture sensitive", "/Resources/Reaction_Images/organometallics/gilman.gif");
         addReaction(organometallics, "SN2 with Gilman reagents", "Use R2CuLi", "Coupling", "Air/moisture sensitive", "/Resources/Reaction_Images/organometallics/sn2_gilman.gif");
@@ -165,8 +165,8 @@ public class ReactionDatabase {
         addReaction(organometallics, "Suzuki Reaction", "Pd-catalyzed", "Coupling reaction", "Toxic/flammable", "/Resources/Reaction_Images/organometallics/suzuki.gif");
         addReaction(organometallics, "Stille Reaction", "Pd-catalyzed", "Coupling reaction", "Toxic/flammable", "/Resources/Reaction_Images/organometallics/stille.gif");
         addReaction(organometallics, "Olefin Metathesis", "Grubbs catalyst", "Forms new alkenes", "Sensitive catalyst", "/Resources/Reaction_Images/organometallics/metathesis.gif");
-        addReaction(organometallics, "Addition of R-Li To Aldehydes and Ketones", "Use THF", "Forms alcohols", "Reactive, flammable", "/Resources/Reaction_Images/organometallics/rli_alcohols.gif");
-        addReaction(organometallics, "Double Addition of R-Li To Carboxylic Acids", "Use THF", "Forms alcohols", "Reactive, flammable", "/Resources/Reaction_Images/organometallics/rli_carboxylic.gif");
+        addReaction(organometallics, "Addition of R-Li To Aldehydes and Ketones", "USE Tetrahydrofuran (THF). THF is less toxic, forms fewer hazardous peroxides, and has safer physical properties like a higher boiling point and lower water misclibility", "Forms alcohols", "Reactive, flammable", "/Resources/Reaction_Images/organometallics/rli_alcohols.gif");
+        addReaction(organometallics, "Double Addition of R-Li To Carboxylic Acids", "USE Tetrahydrofuran (THF). THF is less toxic, forms fewer hazardous peroxides, and has safer physical properties like a higher boiling point and lower water misclibility", "Forms alcohols", "Reactive, flammable", "/Resources/Reaction_Images/organometallics/rli_carboxylic.gif");
         reactionMap.put("Reactions of Organometallics", organometallics);
 
         /**
@@ -237,9 +237,9 @@ public class ReactionDatabase {
         addReaction(aldehydesKetones, "Hydrate formation [H2O]", "Use water", "Forms geminal diols", "Corrosive", "/Resources/Reaction_Images/aldehydes_ketones/hydrate.gif");
         addReaction(aldehydesKetones, "Cyanohydrin formation [CN–]", "Use safer cyanide source", "Forms cyanohydrins", "Toxic; cyanide", "/Resources/Reaction_Images/aldehydes_ketones/cyanohydrin.gif");
         addReaction(aldehydesKetones, "Reduction of aldehydes [NaBH4]", "Use aqueous ethanol", "Forms alcohol", "Flammable; reactive", "/Resources/Reaction_Images/aldehydes_ketones/reduction_aldehyde_nabh4.gif");
-        addReaction(aldehydesKetones, "Reduction of aldehydes [LiAlH4]", "Use THF", "Forms alcohol", "Reacts violently with water", "/Resources/Reaction_Images/aldehydes_ketones/reduction_aldehyde_lialh4.gif");
+        addReaction(aldehydesKetones, "Reduction of aldehydes [LiAlH4]", "USE Tetrahydrofuran (THF). THF is less toxic, forms fewer hazardous peroxides, and has safer physical properties like a higher boiling point and lower water misclibility", "Forms alcohol", "Reacts violently with water", "/Resources/Reaction_Images/aldehydes_ketones/reduction_aldehyde_lialh4.gif");
         addReaction(aldehydesKetones, "Reduction of ketones [NaBH4]", "Use aqueous ethanol", "Forms alcohol", "Flammable; reactive", "/Resources/Reaction_Images/aldehydes_ketones/reduction_ketone_nabh4.gif");
-        addReaction(aldehydesKetones, "Reduction of ketones [LiAlH4]", "Use THF", "Forms alcohol", "Reacts violently with water", "/Resources/Reaction_Images/aldehydes_ketones/reduction_ketone_lialh4.gif");
+        addReaction(aldehydesKetones, "Reduction of ketones [LiAlH4]", "USE Tetrahydrofuran (THF). THF is less toxic, forms fewer hazardous peroxides, and has safer physical properties like a higher boiling point and lower water misclibility", "Forms alcohol", "Reacts violently with water", "/Resources/Reaction_Images/aldehydes_ketones/reduction_ketone_lialh4.gif");
         addReaction(aldehydesKetones, "Grignard addition to aldehydes", "Use RMgX", "Forms alcohols", "Moisture sensitive", "/Resources/Reaction_Images/aldehydes_ketones/grignard_aldehyde.gif");
         addReaction(aldehydesKetones, "Grignard addition to ketones", "Use RMgX", "Forms tertiary alcohols", "Moisture sensitive", "/Resources/Reaction_Images/aldehydes_ketones/grignard_ketone.gif");
         addReaction(aldehydesKetones, "Acetal formation [ROH/H+]", "Acid catalyzed", "Protects carbonyl", "Corrosive", "/Resources/Reaction_Images/aldehydes_ketones/acetal.gif");
