@@ -95,7 +95,7 @@ public class ReactionDatabase {
         addReaction(alkynes, "Ozonolysis", "Use O3", "Cleaves triple bonds", "Ozone toxic", "/Resources/Reaction_Images/alkynes/ozonolysis.gif");
         addReaction(alkynes, "Oxidative cleavage [KMnO4]", "Dilute KMnO4", "Forms carboxylic acids", "Strong oxidizer", "/Resources/Reaction_Images/alkynes/oxidative_cleavage.gif");
         addReaction(alkynes, "Alkyne formation via elimination", "Use strong base", "Forms triple bond", "Strong base", "/Resources/Reaction_Images/alkynes/formation_elimination.gif");
-        addReaction(alkynes, "Halogenation [Cl2, Br2, I2]", "Use X2", "Adds halogens", "Toxic halogens", "/Resources/Reaction_Images/alkynes/halogenation.gif");
+        addReaction(alkynes, "Halogenation [Cl2, Br2, I2]", "Use X2. X2 is 100% atom efficient when compared to traditional sources, maximizing yield and minimizing yield. Being a noble gas X2 is also inert", "Adds halogens", "Toxic halogens", "/Resources/Reaction_Images/alkynes/halogenation.gif");
         reactionMap.put("Alkynes", alkynes);
 
         /**
